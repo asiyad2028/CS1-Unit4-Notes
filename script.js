@@ -51,4 +51,21 @@ console.log("My age in dog years is" + ageDogYears);
 //can slao concatenate while making varables
 let user= "asiya"; 
 let message= "welcome" + user + "!";
-console.log(message); 
+console.log(message);
+/* FUNCTIONS; 
+    Resuable sets of code statements that perform a specfic task/process/routine
+*/ 
+
+//console.log is a built-in function we use a console.log("I just used a function!");
+
+//DEFINE (create) your own function
+function prepareForSleep() {
+    //STATEMENTS (actions) to execute for this routine
+    console.log("1. Put on PJs");
+    console.log("2. Brush teeth");
+    console.log("3. Listen to music");
+}
+
+//CALL (use) our function 
+prepareForSleep();
+prepareForSleep(); // can call it again 
